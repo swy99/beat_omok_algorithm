@@ -1,0 +1,18 @@
+object화...
+
+Mesh, depth, renderpickID
+
+Mesh를 어떻게 define 할 것인가?
+Circle
+
+Arc
+Rectangle
+
+
+W*H size의 canvas가 있다고 가정. object들은 canvas에 속한 object들임 실제로 render 할 때에는 canvas의 size에 맞춰서 render함.
+
+
+구현
+1. render()
+2. renderPicking() - depth
+	

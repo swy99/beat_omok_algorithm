@@ -1,0 +1,8 @@
+통신 규칙
+
+s2c board
+s2c "input"
+c2s input
+s2c board
+...
+s2c gameend(winner), board

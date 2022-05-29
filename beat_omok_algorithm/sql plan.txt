@@ -1,0 +1,33 @@
+SQL server
+
+MATCHINFO
+	userid(VARCHAR(20))
+		
+	algorithm_used(VARCHAR(20))
+		
+	start_time(TIME)	
+
+	end_time(TIME)
+		
+	user_stonecolor(CHAR(1))
+		b or w
+	winner_stonecolor(CHAR(1))
+		b or w or d
+	gg(CHAR(1))
+		t or f
+	move_history(VARCHAR(1444))
+		4 chars per move(XXYY)
+		max 19x19=361 move
+		total 1444 chars
+
+DROP TABLE IF EXISTS match_info;
+CREATE TABLE match_info (
+  userid VARCHAR(20),
+  algorithm_user VARCHAR(20),
+  start_time DATETIME,
+  end_time DATETIME,
+  user_stonecolor CHAR(1),
+  winner_stonecolor CHAR(1),
+  gg CHAR(1),
+  move_history VARCHAR(1444)
+) DEFAULT CHARSET UTF8;
