@@ -1,0 +1,1 @@
+# beat_omok_algorithm
