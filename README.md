@@ -1,8 +1,10 @@
 # beat_omok_algorithm
 
-Webgame service to play omok against AI that was trained using reinforcement learning.
+This is a web game service to play omok against AI that was trained using reinforcement learning.
 
 It consists of web server, websocket server, and db server.
+
+This project is done as a part of the team project of team 32 in CS376 (Machine Learning) of KAIST.
 
 # Web server
 
@@ -15,6 +17,12 @@ It delivers html and javascript files to the client on request.
 Websocket server was made with python(websockets + asyncio).
 
 It gets input from the player and plays as the algorithm.
+
+# DB server
+
+It was made with Mysql and python(SQLAlchemy).
+
+It stores the match data between the user and the algorithm.
 
 # [Algorithm](https://github.com/lumiknit/journey-to-learn-omok)
 
